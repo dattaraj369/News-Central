@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>News Central-Home</title>
+</head>
+<body>
+    <!---Navigation Bar Code-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="header" href="#" class="navbar-brand">News Central</a>
+
+            <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#subscription" class="nav-link">Subscribe Now</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!---Category bar code-->
+    <section class="bg-danger text-warning">
+        <div class="container mb-2">
+            <ul>
+                <li ><a class="cat_list" href="#">Sports</a></li>
+                <li ><a class="cat_list" href="#">Politics</a></li>
+                <li ><a class="cat_list" href="#">Business</a></li>
+                <li ><a class="cat_list" href="#">Technology</a></li>
+                <li ><a class="cat_list" href="#">Lifestyle</a></li>
+                <li ><a class="cat_list" href="#">Education</a></li>
+                <li ><a class="cat_list" href="#">Crypto</a></li>
+                <li ><a class="cat_list" href="#">Weather</a></li>
+                <li><a class="cat_list" href="#">World</a></li>
+                <li><a class="cat_list" href="#">India</a></li>
+                <li><a class="cat_list" href="#">Science</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Search bar-->
+    <section class="bg-#fde2b9 text-dark p-2">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-right">
+                <h5>Search</h5>
+
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Eg. Stock Market Updates">
+                    <button class="btn btn-dark" type="button">Go</button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Trending-->
+    <section class="p-5">
+        <div class="container">
+            <h1>Trending</h1>
+            <div class="row text-center">
+                <div class="col-md py-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="trending_head mb-3">
+                                PM Modi to hold important Cabinet Meet
+                            </h3>
+                            <img class="trending_image mb-3" src="images/trend_1.jpeg" alt="PM Modi" width="300px" height="250px">
+                            <p class="trending_news">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md py-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="trending_head mb-3">
+                                King Kohli back in form, critics silenced
+                            </h3>
+                            <img class="trending_image mb-3" src="images/trend_2.jpeg" alt="Virat Kohli" width="300px" height="250px">
+                            <p class="trending_news">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md py-4">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <h3 class="trending_head mb-3">
+                                Google fires employees, Executives to take cut
+                            </h3>
+                            <img class="trending_image mb-3" src="images/trend_3.jpeg" alt="Sunder Pichai" width="300px" height="250px">
+                            <p class="trending_news">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--For You-->
+    <section class="p-5">
+        <div class="container">
+            <h1>For You</h1>
+            <div class="row text-center">
+                <div class="col-md py-4">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <h3 class="trending_head mb-3">
+                                Lorem ipsum dolor sit amet
+                            </h3>
+                            <img class="trending_image mb-3" src="images/fy_1.jpeg" alt="FY1" width="300px" height="250px">
+                            <p class="trending_news">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md py-4">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <h3 class="trending_head mb-3">
+                                Consectetur adipiscing elit
+                            </h3>
+                            <img class="trending_image mb-3" src="images/fy_2.jpeg" alt="FY2" width="300px" height="250px">
+                            <p class="trending_news">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md py-4">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <h3 class="trending_head mb-3">
+                                Sed do eiusmod tempor
+                            </h3>
+                            <img class="trending_image mb-3" src="images/fy_3.jpeg" alt="FY3" width="300px" height="250px">
+                            <p class="trending_news">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                            <a href="#" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Top News-->
+    <section id="topnews" class="p-5 bg-$blue-300">
+        <div class="container">
+            <h1>
+                Top News
+            </h1>
+            <div class="row align-items-center justify-content-between mb-3">
+                <div class="col-md p-3">
+                    <h6>Enim lobortis scelerisque fermentum</h6>
+                    <p>
+                        Odio morbi quis commodo odio aenean sed adipiscing diam donec. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Massa sed elementum tempus egestas. Justo eget magna fermentum iaculis eu non diam phasellus vestibulum. Cras pulvinar mattis nunc sed blandit libero volutpat sed.
+                        Id semper risus in hendrerit gravida. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Sem integer vitae justo eget magna fermentum. Iaculis urna id volutpat lacus laoreet non curabitur. Nulla porttitor massa id neque aliquam vestibulum morbi blandit.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid" src="images/tn_1.jpeg" alt="topnews">
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-between mb-3">
+                <div class="col-md">
+                    <img class="img-fluid" src="images/tn_2.jpeg" alt="topnews">
+                </div>
+                <div class="col-md p-3">
+                    <h6>Enim lobortis scelerisque fermentum</h6>
+                    <p>
+                        Purus gravida quis blandit turpis. Volutpat est velit egestas dui id ornare arcu odio. Tellus pellentesque eu tincidunt tortor. Cursus euismod quis viverra nibh cras. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Habitant morbi tristique senectus et. Ut lectus arcu bibendum at varius vel pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada.
+                        Id semper risus in hendrerit gravida. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Sem integer vitae justo eget magna fermentum. Iaculis urna id volutpat lacus laoreet non curabitur. Nulla porttitor massa id neque aliquam vestibulum morbi blandit.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row align-items-center justify-content-between mb-3">
+                <div class="col-md p-3">
+                    <h6>Enim lobortis scelerisque fermentum</h6>
+                    <p>
+                        Id semper risus in hendrerit gravida. Turpis nunc eget lorem dolor sed viverra ipsum nunc. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Sem integer vitae justo eget magna fermentum. Iaculis urna id volutpat lacus laoreet non curabitur. Nulla porttitor massa id neque aliquam vestibulum morbi blandit.
+                        Purus gravida quis blandit turpis. Volutpat est velit egestas dui id ornare arcu odio. Tellus pellentesque eu tincidunt tortor. Cursus euismod quis viverra nibh cras. Nec dui nunc mattis enim ut tellus elementum sagittis vitae. Habitant morbi tristique senectus et. Ut lectus arcu bibendum at varius vel pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada.
+                    </p>
+                </div>
+                <div class="col-md">
+                    <img class="img-fluid" src="images/tn_3.jpeg" alt="topnews">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2023 News Central</p>
+
+            <a href="#" class="gototop postion-absolute bottom-0 end-0 p-5">Go to the Top</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
